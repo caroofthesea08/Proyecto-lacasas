@@ -20,9 +20,12 @@ Específicamente, en las posiciones de inicio y parada (3589529, 3590887).Se uti
 ### 5. Clonación
 - Para el diseño manual de primers, fue necesario trabajar con una secuencia de nucleótidos más amplia que la seleccionada como secuencia de interés. Específicamente, se utilizó el ID: CP071785.1:3589519-3590887. Como se puede apreciar, el cambio consistió en considerar 10 nucleótidos aguas arriba de la secuencia, con el fin de tener más libertad al momento de diseñar los primers, los cuales fueron:
 
-  Forward: ACCATCCGTTATGCCA, %GC = 50%, T<sub>m</sub> = 52 °C
+  Forward: ACCATCCGTTATGCCA, %GC = 50%, T<sub>m</sub> = 51.83 °C
 
-  Reverse complement: ACTGACTTCGATGTAACC, %GC = 44%, T<sub>m</sub> = 51 °C
+  Reverse complement: ACTGACTTCGATGTAACC, %GC = 44%, T<sub>m</sub> = 51.22 °C
+
+  ![image](https://github.com/user-attachments/assets/61fbbdfd-79f1-4598-bff7-2c26b6c5599b)
+
   
 - Basándose en el trabajo realizado por Chang et al. (2022), en el que se clona una proteína lacasa en _E. coli_, se optó por el plásmido pET-22b, cuyo mapa de restricción está bien reportado y, además, codifica para la resistencia a la ampicilina
 - Para el vector plasmídico, se obtuvo el siguiente mapa de restricción:
@@ -41,9 +44,9 @@ Específicamente, en las posiciones de inicio y parada (3589529, 3590887).Se uti
 
   Se obtienen entonces los primers
 
-  Forward: AAGCTTACCATCCGTTATGCCA, %GC = 45.4%, T<sub>m</sub> = 64 °C
+  Forward: AAGCTTACCATCCGTTATGCCA, %GC = 45.4%, T<sub>m</sub> = 51.83 °C
   
-  Reverse complement: GGATCCACTGACTTCGATGTAA, %GC = 45.4%, T<sub>m</sub> = 64 °C
+  Reverse complement: GGATCCACTGACTTCGATGTAACC, %GC = 50%, T<sub>m</sub> = 51.22 °C
 
-  El porcentaje GC se comprueba de forma manual, obteniendo un valor aceptable. De igual manera, la T<sub>m</sub> se calcula manualmente con la fórmula:  **T<sub>m</sub> = 2(#<sub>A</sub> + #<sub>T</sub>) + 4(#<sub>C</sub> + #<sub>G</sub>).**
+  El porcentaje GC se comprueba de forma manual, obteniendo un valor aceptable. Por otro lado, la T<sub>m</sub> permanece igual, al no involucrar las regiones de reconocimineto añadidas. 
 
