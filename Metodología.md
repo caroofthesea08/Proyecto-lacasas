@@ -172,3 +172,9 @@ pdf("cuOx_NJ.pdf")
 plot(cuOx_NJ, main = "Árbol NJ de CuOx")
 dev.off()
 ```
+### 3. Selección del organismo con una proteína similar
+- Identificar los tres microorganismos con menor distancia filogenética a _Marinomonas profundimaris_
+- Buscar e identificar sus características de aislamiento y supervivencia
+- Modelar las proteínas en https://swissmodel.expasy.org/ y comparar si físicamente su plegamiento es similar
+- Identificar el microorganismo que cuya proteína se parezca a la de _M. profundimaris_ y cuyas propiedades de supervivencia no sean tan extremas
+### 4. Extracción de ADN
