@@ -5,11 +5,19 @@ El índigo es uno de los colorantes más importantes del mundo, especialmente en
 
 <div align="center">
   <img src="https://www.wildcolours.co.uk/assets/images/natural-dyes-indigo-chemistry.png" alt="Figura 1. Estructura del índigo." width="500">
-  <br>
-  <small>Descripción de la imagen</small>
-  <p style="font-size: 8px; color: red;">Figura 1. Estructura del índigo. Extraído de: https://www.wildcolours.co.uk/html/indigo_chemistry.html</p>
+  <p style="font-size: 8px; color: black;">Figura 1. Estructura del índigo. Extraído de: https://www.wildcolours.co.uk/html/indigo_chemistry.html</p>
 </div>
 
 Ante esta dificultad, se ha reportado que la oxidación del índigo está mediada por la enzima lacasa (EC 1.10.3.2) donde por sustracción de dos electrones se oxida a dihidroíndigo y por sustracción de 4 electrones se oxida completamente a isatín, que posteriormente con una hidrólisis se convierte en ácido antranílico, producto final de la oxidación (Herrera et al., n.d.).
 
 
+
+
+<div align="center">
+  
+  ![image](https://github.com/user-attachments/assets/726589a1-becd-41e5-b615-b8b21b1628aa)
+  <p style="font-size: 8px; color: black;">Figura 2. Estructura del índigo. Extraído de: https://www.wildcolours.co.uk/html/indigo_chemistry.html</p>
+</div>
+
+
+Se tiene una cepa de _Marinomonas profundimaris_, una bacteria gram-negativa que aislada de sedimentos de aguas profundas del Océano Ártico, que tiene la capacidad de decolorar tintes sin mediadores (Chang et al., 2022). Entonces, se quiere determinar si esta bacteria contiene la enzima lacasa que decolora el colorante índigo, y si existen otros microorganismos que sean más accesibles y que tengan una secuencia similar a esta enzima.
