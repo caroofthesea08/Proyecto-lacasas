@@ -178,13 +178,13 @@ dev.off()
 - Modelar las proteínas en https://swissmodel.expasy.org/ y comparar si físicamente su plegamiento es similar
 - Identificar el microorganismo que cuya proteína se parezca a la de _M. profundimaris_ 
 ### 4. Obtención de la secuencia de ADN
-- Conociendo el organismo candidato seleccionado, luego de la simulación de proteínas, se utiliza la secuencia de aminoácidos de la proteína modelada para hacer BLAST en la página web del NCBI en la función “tblastn”, para encontrar la secuencia de nucleótidos correspondiente a la proteína.
+- Conociendo el organismo candidato seleccionado, luego de la simulación de proteínas, se utiliza la secuencia de aminoácidos de la proteína modelada para realizar un BLAST en la página web del NCBI, utilizando la función “tblastn” para encontrar la secuencia de nucleótidos correspondiente a la proteína.
 ![image](https://github.com/user-attachments/assets/4a0be190-257a-4f94-b11b-fccbca064bc0)
 
 ### 5. Clonación
--	Se diseñan manualmente los primers para una reacción de PCR convencional, con la finalidad de generar un amplicón con la totalidad de la secuencia de interés 
--	Se selecciona un plásmido que funcione como vector de clonación. 
--	Se realizan los mapas de restricción de la siguiente manera: Para el vector plasmídico se consulta en SnapGene (https://www.snapgene.com/plasmids/pet_and_duet_vectors_(novagen)/pET-22b(%2B)), mientras que para el inserto, se utiliza la herramienta NEBcutter(https://nc3.neb.com/NEBcutter/prj/) en la página web de New England BioLabs.
--	Se contrastan los mapas de restricción y se seleccionan las enzimas de restricción a utilizar. 
--	Se modifican los primers para añadir la secuencia de reconocimiento de las enzimas seleccionadas.
--	Se calculan y verifican los valores %GC y T<sub>m</sub> para ambos primers.
+- Se diseñan manualmente los primers para una reacción de PCR convencional, con el fin de generar un amplicón que cubra la totalidad de la secuencia de interés.
+- Se selecciona un plásmido que funcione como vector de clonación.
+- Se elaboran los mapas de restricción de la siguiente manera: Para el vector plasmídico, se consulta en SnapGene (https://www.snapgene.com/plasmids/pet_and_duet_vectors_(novagen)/pET-22b(%2B)), mientras que para el inserto, se utiliza la herramienta NEBcutter (https://nc3.neb.com/NEBcutter/prj/) en la página web de New England BioLabs.
+- Se contrastan los mapas de restricción y se seleccionan las enzimas de restricción a utilizar.
+- Se modifican los primers para añadir la secuencia de reconocimiento de las enzimas seleccionadas.
+- Se calculan y verifican los valores de %GC y T<sub>m</sub> para ambos primers.
