@@ -8,4 +8,5 @@
 
 ### 3. Selección del organismo con una proteína similar
 
-### 4. 
+### 4. Obtención de la secuencia de ADN
+Utilizando la secuencia de aminoácidos de 
