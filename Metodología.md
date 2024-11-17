@@ -138,13 +138,6 @@ with Entrez.efetch(
     seq_record = SeqIO.read(handle, "fasta")
 
 SeqIO.write(seq_record, "mcolpomeniae_prot.fa", "fasta")
-
-#Secuencia oxidasa multicobre de Marinomonas primoryensis
-with Entrez.efetch(
-    db="protein", rettype="fasta", retmode="text", id="WP_244959793.1") as handle:
-    seq_record = SeqIO.read(handle, "fasta")
-
-SeqIO.write(seq_record, "mprimoryensis_prot.fa", "fasta")
 ```
 - Agrupar las secuencias en un archivo de texto y realizar un alineamiento con clustal
 ```
@@ -153,4 +146,29 @@ clustalw -infile=CuOxidase_seqs.txt -type=protein
 - Observar el alineamiento y analizar
 ```
 clustalx CuOxidase_seqs.aln
+```
+- Realizar un árbol filogenético de tipo Neighbour Joining (NJ) para determinar visualmente las distancias entre cada secuencia
+
+```
+#!/usr/bin/env Rscript
+
+# Script para graficar los árboles filogenéticos de proteínas cobre oxidasas
+library("seqinr")
+library("phangorn")
+library("ape")
+
+# Leer la alineación
+cuOx <- read.alignment("/home/carolinadelmar/proyecto_final/CuOxidase_seqs.aln", format = 'clustal')
+
+# Convertir a formato phyDat
+cuOx_phy_dat <- as.phyDat(cuOx)
+
+# Calcular matriz de distancias
+cuOx_dist <- dist.ml(cuOx_phy_dat)
+
+# Construir árbol NJ
+cuOx_NJ <- NJ(cuOx_dist)
+pdf("cuOx_NJ.pdf")
+plot(cuOx_NJ, main = "Árbol NJ de CuOx")
+dev.off()
 ```
