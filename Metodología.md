@@ -176,5 +176,12 @@ dev.off()
 - Identificar los tres microorganismos con menor distancia filogenética a _Marinomonas profundimaris_
 - Buscar e identificar sus características de aislamiento y supervivencia
 - Modelar las proteínas en https://swissmodel.expasy.org/ y comparar si físicamente su plegamiento es similar
-- Identificar el microorganismo que cuya proteína se parezca a la de _M. profundimaris_ y cuyas propiedades de supervivencia no sean tan extremas
-### 4. Extracción de ADN
+- Identificar el microorganismo que cuya proteína se parezca a la de _M. profundimaris_ 
+### 4. Obtención de la secuencia de ADN
+- Conociendo el organismo candidato seleccionado, luego de la simulación de proteínas, se utiliza la secuencia de aminoácidos de la proteína modelada para hacer BLAST en la página web del NCBI en la función “tblastn”, para encontrar la secuencia de nucleótidos correspondiente a la proteína.
+### 5. Clonación
+-	Se hace un diseño de primers para la secuencia de ADN usando la herramienta “PrimerQuest” disponible en la página web de Integrated DNA Technologies https://www.idtdna.com/pages/products/custom-dna-rna/dna-oligos/custom-dna-oligos 
+-	Se selecciona un plásmido que funcione como vector de clonación. 
+-	Se realizan los mapas de restricción de la secuencia de interés y el vector usando la herramienta “NEBcutter” disponible en la página web de New England BioLabs inchttps://nc3.neb.com/NEBcutter/prj/ 
+-	Se contrastan los mapas de restricción y se seleccionan las enzimas de restricción a utilizar. 
+-	Se modifican los primers para añadir la secuencia de reconocimiento de las enzimas seleccionadas. 
