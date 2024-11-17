@@ -9,13 +9,41 @@
 ### 3. Selección del organismo con una proteína similar
 
 ### 4. Obtención de la secuencia de ADN
-Utilizando la secuencia de aminoácidos de _Marinobacter xestospongiae_ se encontró una coicidencia en la secuencia del genóma completo de _Marinobacter sp_. 
+Utilizando la secuencia de aminoácidos de _Marinobacter xestospongiae_, se encontró una coincidencia en la secuencia del genoma completo de _Marinobacter sp_.
 
 ![image](https://github.com/user-attachments/assets/5b367458-00f0-4393-b17c-e77f24cd86b2)
 
-Específicamente en las posiciones de inicio y parada (3589529, 3590887). Utilizando GeneBank se utilizó la secuencia identificada con el ID: CP071785.1:3589529-3590887.
+Específicamente, en las posiciones de inicio y parada (3589529, 3590887).Se utilizó la secuencia identificada en GeneBank con el ID: CP071785.1:3589529-3590887.
 
 ![image](https://github.com/user-attachments/assets/5a6ccaa9-36e8-4a8a-9762-55f7f0a04e6a)
 
 ### 5. Clonación
+- Para el diseño manual de primers, fue necesario trabajar con una secuencia de nucleótidos más amplia que la seleccionada como secuencia de interés. Específicamente, se utilizó el ID: CP071785.1:3589519-3590887. Como se puede apreciar, el cambio consistió en considerar 10 nucleótidos aguas arriba de la secuencia, con el fin de tener más libertad al momento de diseñar los primers, los cuales fueron:
+
+  Forward: ACCATCCGTTATGCCA, %GC = 50%, T<sub>m</sub> = 52 °C
+
+  Reverse complement: ACTGACTTCGATGTAACC, %GC = 44%, T<sub>m</sub> = 51 °C
+  
+- Basándose en el trabajo realizado por Chang et al. (2022), en el que se clona una proteína lacasa en _E. coli_, se optó por el plásmido pET-22b, cuyo mapa de restricción está bien reportado y, además, codifica para la resistencia a la ampicilina
+- Para el vector plasmídico, se obtuvo el siguiente mapa de restricción:
+  
+  ![image](https://github.com/user-attachments/assets/0c21cd60-daf1-4af8-895c-275f83f5f3a9)
+  
+  Para el inserto, se obtuvo el siguiente mapa de restricción:
+  ![image](https://github.com/user-attachments/assets/7aa43027-88c7-4770-9d0c-93f713b888f4)
+
+- Contrastando ambos mapas de restricción, se aprecia que el vector contiene las regiones de restricción de las enzimas _HindIII_ y _BamHI_, mientras que el inserto carece de estas secuencias, razón por la cual son seleccionadas para el proceso de digestión.
+- Teniendo las enzimas seleccionadas, es necesario modificar los primers con las respectivas secuencias de restricción para que los amplicones generen extremos cohesivos al ser digeridos con las enzimas.
+
+  _HindIII_ → AAGGTT
+
+  _BamHI_ → GGATCC
+
+  Se obtienen entonces los primers
+
+  Forward: AAGCTTACCATCCGTTATGCCA, %GC = 45.4%, T<sub>m</sub> = 64 °C
+  
+  Reverse complement: GGATCCACTGACTTCGATGTAA, %GC = 45.4%, T<sub>m</sub> = 64 °C
+
+  El porcentaje GC se comprueba de forma manual, obteniendo un valor aceptable. De igual manera, la T<sub>m</sub> se calcula manualmente con la fórmula:  **T<sub>m</sub> = 2(#<sub>A</sub> + #<sub>T</sub>) + 4(#<sub>C</sub> + #<sub>G</sub>).**
 
