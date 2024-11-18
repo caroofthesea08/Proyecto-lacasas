@@ -10,10 +10,10 @@ El índigo es uno de los colorantes más importantes a nivel mundial, especialme
   <p style="font-size: 8px; color: black;">Figura 1. Estructura del índigo. Extraído de: https://www.wildcolours.co.uk/html/indigo_chemistry.html</p>
 </div>
 
-Ante esta dificultad, se ha reportado que la oxidación del índigo está mediada por la enzima lacasa (EC 1.10.3.2) donde por sustracción de dos electrones se oxida a dihidroíndigo y por sustracción de 4 electrones se oxida completamente a isatín, que posteriormente con una hidrólisis se convierte en ácido antranílico, producto final de la oxidación (Herrera et al., n.d.).
 
+Las lacasas son un subgrupo de oxidasas multicobre, que pueden catalizar la oxidación de varios compuestos fenólicos y no fenólicos, incluidas las aminas aromáticas y las arildiaminas, al tiempo que reducen el oxígeno molecular a agua. En general, las lacasas contienen dominios de unión al cobre ricos en histidina que generalmente se conservan y se unen específicamente a 4 iones de cobre por monómero. Estos centros de cobre en los sitios activos catalíticos de las lacasas pueden mediar la transferencia de electrones individuales de los compuestos fenólicos al oxígeno y luego generar moléculas de agua. En cuanto a la oxidación de compuestos no fenólicos, una serie de mediadores, actúan como portadores de electrones entre los sustratos y las lacasas (Chang et al., 2022). Debido a sus excelentes propiedades catalíticas, las lacasas se consideran un catalizador biológico ecológico y respetuoso con el medio ambiente en aplicaciones industriales, como la remediación ambiental, la decoloración de aguas residuales textiles y la modificación de medicamento.
 
-
+Así, se ha reportado que la oxidación del índigo está mediada por estas oxidasas multicobre, donde por sustracción de dos electrones se oxida a dihidroíndigo y por sustracción de 4 electrones se oxida completamente a isatín, que posteriormente con una hidrólisis se convierte en ácido antranílico, producto final de la oxidación (Herrera et al., n.d.).
 
 <div align="center">
   
