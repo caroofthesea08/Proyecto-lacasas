@@ -1,12 +1,30 @@
 # Resultados
 ### 1. Identificación de la lacasa de _M. profundimaris_
-
+Con la secuencia de la proteína de _M. profundimaris_ se hallaron los siguientes dominios:
 ![image](https://github.com/user-attachments/assets/e44fdf94-f479-48ae-95be-aa8324fb3b24)
 
 ### 2. Alineamiento de la lacasa de _M. profundimaris_ y similares
+A partir de el alineamiento, se encontraron estas distancias filogenéticas entre secuencias:
 ![image](https://github.com/user-attachments/assets/1e8fc9fe-959c-49d5-a304-0f9d42c66982)
 
 ### 3. Selección del organismo con una proteína similar
+El modelado de _M. profundimaris_ fue (sitio catalítico encerrado en rojo):
+
+![image](https://github.com/user-attachments/assets/ac5c7617-3fdf-46d2-93a3-67e151370347)
+
+El modelado de _M. colpomeniae_ fue (sitio catalítico encerrado en rojo):
+
+![image](https://github.com/user-attachments/assets/9c42eab9-9b69-4aea-a644-0830c0c1eb10)
+
+El modelado de _M. xestospongiae_ fue (sitio catalítico encerrado en rojo):
+
+![image](https://github.com/user-attachments/assets/ad4d7166-fc19-44d0-a096-675bb1d56f02)
+
+El modelado de _O. bacterium_ fue (sitio catalítico encerrado en rojo):
+
+![image](https://github.com/user-attachments/assets/838ea515-d4a2-48bd-ae75-713efa512103)
+
+Se eligió la proteína _M. xestospongiae_ debido a su sitio catalítico tan conservado y similar al de _M. profundimaris_.
 
 ### 4. Obtención de la secuencia de ADN
 Utilizando la secuencia de aminoácidos de _Marinobacter xestospongiae_, se encontró una coincidencia en la secuencia del genoma completo de _Marinobacter sp_.
