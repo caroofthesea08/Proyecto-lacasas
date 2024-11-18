@@ -8,21 +8,24 @@ A partir de el alineamiento, se encontraron estas distancias filogenéticas entr
 ![image](https://github.com/user-attachments/assets/1e8fc9fe-959c-49d5-a304-0f9d42c66982)
 
 ### 3. Selección del organismo con una proteína similar
-El modelado de _M. profundimaris_ fue (sitio catalítico encerrado en rojo):
+El modelado de _M. profundimaris_ fue:
 
 ![image](https://github.com/user-attachments/assets/ac5c7617-3fdf-46d2-93a3-67e151370347)
 
-El modelado de _M. colpomeniae_ fue (sitio catalítico encerrado en rojo):
+El modelado de _M. colpomeniae_ fue:
 
 ![image](https://github.com/user-attachments/assets/9c42eab9-9b69-4aea-a644-0830c0c1eb10)
 
-El modelado de _M. xestospongiae_ fue (sitio catalítico encerrado en rojo):
+El modelado de _M. xestospongiae_ fue:
 
 ![image](https://github.com/user-attachments/assets/ad4d7166-fc19-44d0-a096-675bb1d56f02)
 
-El modelado de _O. bacterium_ fue (sitio catalítico encerrado en rojo):
+El modelado de _O. bacterium_ fue:
 
 ![image](https://github.com/user-attachments/assets/838ea515-d4a2-48bd-ae75-713efa512103)
+
+> [!NOTA]
+> Los sitios catalíticos están encerrados en rojo
 
 Se eligió la proteína _M. xestospongiae_ debido a su sitio catalítico tan conservado y similar al de _M. profundimaris_.
 
