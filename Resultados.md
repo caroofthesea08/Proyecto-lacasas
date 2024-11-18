@@ -24,7 +24,7 @@ El modelado de _O. bacterium_ fue:
 
 ![image](https://github.com/user-attachments/assets/838ea515-d4a2-48bd-ae75-713efa512103)
 
-> [!NOTA]
+> [!NOTE]
 > Los sitios catalíticos están encerrados en rojo
 
 Se eligió la proteína _M. xestospongiae_ debido a su sitio catalítico tan conservado y similar al de _M. profundimaris_.
