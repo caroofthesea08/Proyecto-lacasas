@@ -1,3 +1,5 @@
+# Búsqueda de microorganismos productores de lacasas que degraden colorantes como el índigo, y que presenten condiciones de mantenimiento y obtención más accesibles en comparación con Marinomonas profundimaris.
+
 # Planteamiento del problema
 El Ministerio de Ambiente prohibió a las empresas textiles descargar sus aguas residuales en los ríos sin antes someterlas a un tratamiento que elimine los colorantes y demás contaminantes presentes en sus efluentes. Esta medida tiene como objetivo reducir la contaminación de los cuerpos de agua y contribuir al cumplimiento de los Objetivos de Desarrollo Sostenible (ODS) 6 y 14.
 
